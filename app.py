@@ -7,8 +7,8 @@ from gigachat.models import Chat, Messages, MessagesRole
 GIGA_KEY = st.secrets["GIGA_KEY"]   # ключ берётся из секретов
 
 st.set_page_config(page_title="Бот по охране труда", page_icon="🦺")
-st.title("🦺 Ассистент по производственной безопасности")
-st.caption("Ищет информацию в интернете и отвечает со ссылками на источники.")
+st.title("🦺 Ассистент по охране труда и производственной безопасности")
+st.caption("Ищет информацию в интернете и быстро отвечает")
 
 TRUSTED = ("consultant.ru", "glavkniga.ru", "minzdrav.gov.ru",
            "rospotrebnadzor.ru", "mos.ru", "regulation.gov.ru",
